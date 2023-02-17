@@ -26,6 +26,7 @@ export default function Offers() {
       </a>
       <a href="tel:+919985972276" target="_blank">
         <img className="call" src={call} alt="Logo" />
+        <p className="ordernow">Order Now</p>
       </a>
       <div className="offer-main-div">
         <img
