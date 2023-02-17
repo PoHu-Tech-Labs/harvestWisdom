@@ -9,7 +9,8 @@
   align-items: center;
   flex-direction: column;
   background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-size: contain;
+  
+  background-size: auto;
 }
 
 @media only screen and (max-width: 600px) {
