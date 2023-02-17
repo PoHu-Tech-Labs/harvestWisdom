@@ -8,9 +8,9 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  
+  background-image: url("https://images.pexels.com/photos/6331082/pexels-photo-6331082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: auto;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 600px) {
@@ -61,7 +61,7 @@
 .heading-style {
   font-family: "Julee";
   font-size: 2rem;
-  color: #f1f1f1;
+  color: #bd081c;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
@@ -187,7 +187,8 @@ a {
   border-radius: 50%;
   width: 3rem;
   z-index: 10000;
-  padding: 0.2rem;
+  padding: 0.5rem;
+
 }
 .call{
   position: fixed;
