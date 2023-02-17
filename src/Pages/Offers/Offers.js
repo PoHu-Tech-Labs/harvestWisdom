@@ -2,10 +2,31 @@ import React from "react";
 import "./Offers.css";
 import harvestWisdomLogo from "../../assets/harvestWisdomLogo.png";
 import harvestWisdomShop from "../../assets/harvestWisdomShop.jpg";
+// import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+// import WhatsAppImage from "../../assets/whatsapp.png";
+import WhatsAppImage from "../../assets/whatsapp.gif";
+// import googlemaps from "../../assets/googlemaps.png";
+import googlemaps from "../../assets/googlemaps.gif";
+import call from "../../assets/call.gif";
 
 export default function Offers() {
   return (
     <>
+      <a
+        href={
+          "https://wa.me/919140657258?text=Welcome%20to%20the%20Harvest%20Wisdom%20Store%20!"
+        }
+        target="_blank"
+      >
+        <img className="whatsapp" src={WhatsAppImage} alt="Logo" />
+      </a>
+
+      <a href={"https://goo.gl/maps/Bn2dagoT7nqKuytUA"} target="_blank">
+        <img className="googlemaps" src={googlemaps} alt="Logo" />
+      </a>
+      <a href="tel:+919985972276" target="_blank">
+        <img className="call" src={call} alt="Logo" />
+      </a>
       <div className="offer-main-div">
         <img
           src={harvestWisdomLogo}
@@ -92,11 +113,7 @@ export default function Offers() {
             </div>
           </div>
         </div>
-        <div className="callus-div">Call us to Order on +91-9985972276</div>
-
-        <a href={"https://goo.gl/maps/Bn2dagoT7nqKuytUA"}>
-          <button className="visitus">Visit us </button>
-        </a>
+        {/* <div className="callus-div">Call us to Order on +91-9985972276</div> */}
 
         {/* //////////////////////////////////////////////////////// */}
       </div>

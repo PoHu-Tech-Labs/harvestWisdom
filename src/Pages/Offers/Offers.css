@@ -8,7 +8,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  background-image: url('https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
 }
 
@@ -34,7 +34,7 @@
 
 #Offer-content {
   font-family: "Roboto Mono", monospace;
-  color: 'white' !important;
+  color: "white" !important;
 }
 
 @media only screen and (max-width: 800px) {
@@ -51,11 +51,11 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .offer-image {
-        width: 30rem !important;
-        border-radius: 5%;
-      }
+  .offer-image {
+    width: 30rem !important;
+    border-radius: 5%;
   }
+}
 
 .heading-style {
   font-family: "Julee";
@@ -69,91 +69,133 @@
   }
 }
 
-#Offer-content{
-    width: 90%;
-    color: 'white';
+#Offer-content {
+  width: 90%;
+  color: "white";
 }
 
-.Offer-content-div{
-    padding: 1rem;
-    
+.Offer-content-div {
+  padding: 1rem;
 }
 
-
-
-:root{ --main-color: #5EA400; }
-.demo{ background-color: #f1f1f1; }
-.serviceBox{
-    font-family:'Poppins', sans-serif;
-    text-align: center;
-    padding: 25px 35px 40px;
-    position: relative;
-    z-index: 1;
+:root {
+  --main-color: #5ea400;
+}
+.demo {
+  background-color: #f1f1f1;
+}
+.serviceBox {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 25px 35px 40px;
+  position: relative;
+  z-index: 1;
 }
 .serviceBox:before,
-.serviceBox:after{
-    content: "";
-    background-color: var(--main-color);
-    height: 100px;
-    border-radius: 50%;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+.serviceBox:after {
+  content: "";
+  background-color: var(--main-color);
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
-.serviceBox:after{
-    background-color: #fff;
-    height: auto;
-    border-radius: 50%/15%;
-    top: 0;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
+.serviceBox:after {
+  background-color: #fff;
+  height: auto;
+  border-radius: 50%/15%;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
 }
-.serviceBox .service-icon{
-    color: var(--main-color);
-    font-size: 40px;
-    margin: 0 0 20px;
+.serviceBox .service-icon {
+  color: var(--main-color);
+  font-size: 40px;
+  margin: 0 0 20px;
 }
-.serviceBox .title{
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: 0.5px;
-    margin: 0 0 10px;
+.serviceBox .title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px;
 }
-.serviceBox .description{
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 20px;
-    letter-spacing: 0.5px;
-    text-align: center;
-    margin: 0;
+.serviceBox .description {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin: 0;
 }
-.serviceBox.red{ --main-color: #FF4E01; }
-.serviceBox.green{ --main-color: #008B85; }
-.serviceBox.orange{ --main-color: #FF7C19; }
-@media only screen and (max-width: 1199px){
-    .serviceBox{ margin: 0 0 30px; }
+.serviceBox.red {
+  --main-color: #ff4e01;
 }
-
-.callus-div{
-    color: white;
-    font-size: 1.2em;
-
+.serviceBox.green {
+  --main-color: #008b85;
 }
-
-.visitus{
-    background-color: black;
-    color: white;
-    font-size: 1rem;
-    margin: 2rem;
-
+.serviceBox.orange {
+  --main-color: #ff7c19;
+}
+@media only screen and (max-width: 1199px) {
+  .serviceBox {
+    margin: 0 0 30px;
+  }
 }
 
-a{
-    /* color: none; */
-    text-decoration-style: unset;
+.callus-div {
+  color: white;
+  font-size: 1.2em;
+  padding-bottom: 2rem;
+}
+.whatsapp {
+  position: fixed;
+  bottom: 1rem;
+  right: 0.5rem;
+  color:#5ea400;
+  background-color: white;
+  border-radius: 50%;
+  width: 3rem;
+  z-index: 10000;
+  padding: 0.2rem;
+
+}
+.visitus {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  margin: 2rem;
+}
+
+a {
+  /* color: none; */
+  text-decoration-style: unset;
+}
+
+.googlemaps{
+  position: fixed;
+  bottom: 5rem;
+  right: 0.5rem;
+  color:#5ea400;
+  background-color: white;
+  border-radius: 50%;
+  width: 3rem;
+  z-index: 10000;
+  padding: 0.2rem;
+}
+.call{
+  position: fixed;
+  bottom: 5rem;
+  left: 0.5rem;
+  color:#5ea400;
+  background-color: white;
+  border-radius: 50%;
+  width: 3rem;
+  z-index: 10000;
+  padding: 0.2rem;
 }
