@@ -83,7 +83,7 @@ export default function Offers() {
                     </div>
                     <h3 className="title">Offer on Rs.2000/-</h3>
                     <p className="description">
-                      On Purchase of Rs.1500/- or above & get Cashew(100gm)
+                      On Purchase of Rs.2000/- or above & get Cashew(100gm)
                       worth Rs.200/- absolutely free !
                     </p>
                   </div>
