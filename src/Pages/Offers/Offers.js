@@ -22,7 +22,9 @@ export default function Offers() {
       </a>
 
       <a href={"https://goo.gl/maps/Bn2dagoT7nqKuytUA"} target="_blank">
-        <img className="googlemaps" src={googlemaps} alt="Logo" />
+        <div>
+          <img className="googlemaps" src={googlemaps} alt="Logo" />
+        </div>
       </a>
       <a href="tel:+919985972276" target="_blank">
         <img className="call" src={call} alt="Logo" />

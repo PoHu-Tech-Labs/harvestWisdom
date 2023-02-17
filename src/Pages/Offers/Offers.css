@@ -62,6 +62,14 @@
   font-family: "Julee";
   font-size: 2rem;
   color: #bd081c;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  animation-name: grow;
+}
+
+@keyframes grow {
+  from {font-size: 1.3rem}
+  to {font-size: 2rem}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
@@ -187,7 +195,7 @@ a {
   border-radius: 50%;
   width: 3rem;
   z-index: 10000;
-  padding: 0.5rem;
+  padding: 0.3rem;
 
 }
 .call{
