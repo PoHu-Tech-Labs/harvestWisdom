@@ -82,7 +82,7 @@ export default function Offers() {
                     </div>
                     <h3 className="title">Offer on Rs.1500/-</h3>
                     <p className="description">
-                      Get Turmeric worth Rs.150/- absolutely free !
+                      Free Turmeric worth Rs.150/- + Free Master Slice !
                     </p>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ export default function Offers() {
                     </div>
                     <h3 className="title">Offer on Rs.2000/-</h3>
                     <p className="description">
-                      Get Cashew worth Rs.200/- absolutely free !
+                      Free Cashew worth Rs.150/- + Free Master Slice !
                     </p>
                   </div>
                 </div>

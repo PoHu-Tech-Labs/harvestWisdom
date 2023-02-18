@@ -77,7 +77,12 @@
   padding-right: 0.5rem;
   z-index: 300;
   position: fixed;
-  top:12rem;
+  top:13rem;
+  animation-name: grow;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
  
 }
 
