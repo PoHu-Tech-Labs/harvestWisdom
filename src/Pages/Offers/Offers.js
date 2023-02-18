@@ -38,9 +38,7 @@ export default function Offers() {
         />
         <img className="offer-image" src={harvestWisdomShop} alt="Logo" />
         <p className="heading-style">Grand opening on 24 Feb !</p>
-        <p className="heading-style2">
-          Kakatiya Hills Avenue 2, Rd no 6 24th Feb{" "}
-        </p>
+        <p className="heading-style2">Kakatiya Hills Avenue 2, Rd no 6</p>
 
         {/* //////////////////////////////////////////////////////// */}
 
