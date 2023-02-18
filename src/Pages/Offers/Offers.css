@@ -86,6 +86,21 @@
  
 }
 
+.heading-style2{
+  font-family: "Julee";
+  font-size: 1rem;
+  color:white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  z-index: 300;
+  position: relative;
+  top:16.5rem; 
+  background-color: black;
+  color:'white';
+  border-radius: 0.5rem;
+  
+}
+
 @keyframes grow {
   0%{font-size: 1.3rem}
   100% {font-size: 2rem}

@@ -37,7 +37,10 @@ export default function Offers() {
           className="harvest-logo-img"
         />
         <img className="offer-image" src={harvestWisdomShop} alt="Logo" />
-        <p className="heading-style">Store Opening on 24th Feb !</p>
+        <p className="heading-style">Grand opening on 24 Feb !</p>
+        <p className="heading-style2">
+          Kakatiya Hills Avenue 2, Rd no 6 24th Feb{" "}
+        </p>
 
         {/* //////////////////////////////////////////////////////// */}
 
@@ -82,7 +85,8 @@ export default function Offers() {
                     </div>
                     <h3 className="title">Offer on Rs.1500/-</h3>
                     <p className="description">
-                      Free Turmeric worth Rs.150/- + Free Master Slice !
+                      Free Turmeric worth Rs.150/- + Free Master slice
+                      service(cut fruits+veggies) !
                     </p>
                   </div>
                 </div>
@@ -96,7 +100,8 @@ export default function Offers() {
                     </div>
                     <h3 className="title">Offer on Rs.2000/-</h3>
                     <p className="description">
-                      Free Cashew worth Rs.150/- + Free Master Slice !
+                      Free Cashew worth Rs.150/- + Free Master slice service(cut
+                      fruits+veggies) !
                     </p>
                   </div>
                 </div>
