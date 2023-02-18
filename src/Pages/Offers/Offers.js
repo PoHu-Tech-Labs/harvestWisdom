@@ -54,11 +54,11 @@ export default function Offers() {
                     </div>
                     <h3 className="title">Offer on Rs.500/-</h3>
                     <p className="description">
-                      On Purchase of Rs.500/- or above & get a Watermelon
-                      absolutely free !
+                      Get a Watermelon absolutely free !
                     </p>
                   </div>
                 </div>
+                {/* ////////////////////////////////////////////////// */}
                 <div className="col-md-3 col-sm-6">
                   <div className="serviceBox red">
                     <div className="service-icon">
@@ -68,8 +68,35 @@ export default function Offers() {
                     </div>
                     <h3 className="title">Offer on Rs.1000/-</h3>
                     <p className="description">
-                      On Purchase of Rs.1000/- or above & get Pure Cow Ghee
-                      worth Rs.100/- absolutely free !
+                      Get Pooja Cow Ghee worth Rs.100/- absolutely free !
+                    </p>
+                  </div>
+                </div>
+                {/* ////////////////////////////////////////////////// */}
+                <div className="col-md-3 col-sm-6">
+                  <div className="serviceBox">
+                    <div className="service-icon">
+                      <span>
+                        <i className="fa fa-globe"></i>
+                      </span>
+                    </div>
+                    <h3 className="title">Offer on Rs.1500/-</h3>
+                    <p className="description">
+                      Get Turmeric worth Rs.150/- absolutely free !
+                    </p>
+                  </div>
+                </div>
+                {/* ////////////////////////////////////////////////// */}
+                <div className="col-md-3 col-sm-6">
+                  <div className="serviceBox red">
+                    <div className="service-icon">
+                      <span>
+                        <i className="fa fa-rocket"></i>
+                      </span>
+                    </div>
+                    <h3 className="title">Offer on Rs.2000/-</h3>
+                    <p className="description">
+                      Get Cashew worth Rs.200/- absolutely free !
                     </p>
                   </div>
                 </div>
@@ -80,7 +107,7 @@ export default function Offers() {
 
         {/* //////////////////////////////////////////////////////// */}
 
-        <div className="Offer-div">
+        {/* <div className="Offer-div">
           <div className="Offer-content-div">
             <div className="container">
               <div className="row">
@@ -115,7 +142,7 @@ export default function Offers() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <div className="callus-div">Call us to Order on +91-9985972276</div> */}
 
         {/* //////////////////////////////////////////////////////// */}

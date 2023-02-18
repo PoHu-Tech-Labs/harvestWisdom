@@ -8,22 +8,29 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  background-image: url("https://images.pexels.com/photos/6331082/pexels-photo-6331082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-size: auto;
+  background-image: url("../../assets/background.gif");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 @media only screen and (max-width: 600px) {
   .harvest-logo-img {
     width: 20rem;
+    position: fixed;
+    top:-3rem;
+    z-index:200
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1000px) {
+
+
+/* @media only screen and (min-width: 601px) and (max-width: 1000px) {
   .harvest-logo-img {
     width: 30rem;
   }
-}
+} */
 
 .Offer-div {
   display: flex;
@@ -43,6 +50,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 17rem;
   }
 }
 
@@ -55,6 +63,9 @@
   .offer-image {
     width: 30rem !important;
     border-radius: 5%;
+    position: fixed;
+    top:1rem;
+    z-index: 100;
   }
 }
 
@@ -64,12 +75,15 @@
   color: #bd081c;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  animation-name: grow;
+  z-index: 300;
+  position: fixed;
+  top:12rem;
+ 
 }
 
 @keyframes grow {
-  from {font-size: 1.3rem}
-  to {font-size: 2rem}
+  0%{font-size: 1.3rem}
+  100% {font-size: 2rem}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
@@ -170,7 +184,7 @@
   background-color: white;
   border-radius: 50%;
   width: 3rem;
-  z-index: 10000;
+  z-index: 100;
   padding: 0.2rem;
 
 }
@@ -194,7 +208,7 @@ a {
   background-color: white;
   border-radius: 50%;
   width: 3rem;
-  z-index: 10000;
+  z-index: 100;
   padding: 0.3rem;
 
 }
@@ -206,7 +220,7 @@ a {
   background-color: white;
   border-radius: 50%;
   width: 3rem;
-  z-index: 10000;
+  z-index: 100;
   padding: 0.2rem;
 }
 
@@ -216,7 +230,7 @@ a {
   position: fixed;
   bottom: 2.8rem;
   left: 4.1rem;
-  z-index: 10000;
+  z-index: 100;
   color: white;
   border-radius: 0.5rem;
   font-size: 0.9rem;
