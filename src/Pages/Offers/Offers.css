@@ -17,7 +17,7 @@
 
 @media only screen and (max-width: 600px) {
   .harvest-logo-img {
-    width: 20rem;
+    width: 100%;
     position: fixed;
     top:-3rem;
     z-index:200
@@ -61,10 +61,10 @@
 
 @media only screen and (max-width: 800px) {
   .offer-image {
-    width: 30rem !important;
+    min-width: 100%;
     border-radius: 5%;
     position: fixed;
-    top:1rem;
+    top:0rem;
     z-index: 100;
   }
 }
