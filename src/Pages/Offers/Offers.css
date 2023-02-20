@@ -102,7 +102,7 @@
 }
 
 @keyframes grow {
-  0%{font-size: 1.3rem}
+  0%{font-size: 1.3rem;background-color:white;}
   100% {font-size: 2rem}
 }
 
