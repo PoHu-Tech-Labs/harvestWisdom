@@ -12,12 +12,7 @@ import call from "../../assets/call.gif";
 export default function Offers() {
   return (
     <>
-      <a
-        href={
-          "https://wa.me/919140657258?text=Welcome%20to%20the%20Harvest%20Wisdom%20Store%20!"
-        }
-        target="_blank"
-      >
+      <a href={"https://wa.me/919140657258?text="} target="_blank">
         <img className="whatsapp" src={WhatsAppImage} alt="Logo" />
       </a>
 
